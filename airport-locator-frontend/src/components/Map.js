@@ -17,8 +17,6 @@ const MyMapComponent = compose(
     withHandlers({
     onMarkerClustererClick: () => (markerClusterer) => {
       const clickedMarkers = markerClusterer.getMarkers()
-      console.log(`Current clicked markers length: ${clickedMarkers.length}`)
-      console.log(clickedMarkers)
     },
   }),
   withScriptjs,
