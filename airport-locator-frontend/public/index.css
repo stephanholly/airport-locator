@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
 
+*:focus {
+    outline: none;
+}
+
 html, body {
     margin: 0;
     padding: 0;
@@ -71,9 +75,8 @@ input[type=text] {
   letter-spacing: 5px;
   color: #757575;
   text-align: center;
-  font-size: 3vw;
+  font-size: 2.94vw;
   width: 100%;
-
 }
 
 input[type=submit] {
@@ -82,22 +85,17 @@ input[type=submit] {
   background-color: #115FC0;
   font-size: 3vw;
   color: #FCFCFC;
-  padding-top: 0.3vh;
   vertical-align: top;
 }
 
 .search {
   text-align: center;
   margin-top: 40vh;
-
+  min-width: 600px;
 }
 
 #PlacesAutocomplete__root {
   text-align: center;
   display: inline-block;
   width: 60%;
-}
-
-.main-container {
-  height: 100vh;
 }
